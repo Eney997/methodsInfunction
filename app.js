@@ -1,14 +1,13 @@
-//     const numbers = [1, 2, 3, 4, 5];
-
+//  const numbers = [1, 2, 3, 4, 5];
+ 
 // function jami(){
-//   let sum = 0
+//   let num = 0
 //   for(const rene of numbers){
-//     sum+=rene
+//     num+=rene
 //   }
-//   console.log(sum)
+//   console.log(num)
 // }
 // jami()
-
 
 // shetrialebulad
 
@@ -22,45 +21,47 @@
 // reverce('dzudzuebi')
 
 //generatediv
-//  function generateDiv(){
+ 
+// function generateDiv(){
 //   setInterval(()=>{
 //     let div = document.createElement('div')
-//     div.style.width = '100px'
-//     div.style.height = '100px'
+//     div.style.width = '50px'
+//     div.style.height = '50px'
 //     div.style.background = 'red'
 //     document.body.appendChild(div)
 //   },3000)
-//  }
-//  generateDiv()
+// }
+// generateDiv()
 // 
 
-//  const numbers = [1, 2, 3, 4, 5];
+  //   const numbers = [1, 2, 3, 4, 5];
   
-//   function gavamravlot(){
-//     const allNum = numbers.map(numbers => numbers * 10)
-//     return allNum
-//   }
-//   const newNum = gavamravlot(numbers)
-//   console.log(newNum)
+  //  function davmapot(){
+  //   const newNumbers = numbers.map(numbers => numbers*10)
+  //   return newNumbers
+  //  } 
+
+  //  const result = davmapot(numbers)
+  //  console.log(result)
 
 
 
-
-//  let gunsAndknifes = ['katana', 'xmali', 'glock']
-
-//  function vamatot(gunsAndknifes,newGunsandknifes){
-//   gunsAndknifes.push(newGunsandknifes)
-//   console.log(gunsAndknifes)
+//   let gunsAndknifes = ['katana', 'xmali', 'glock'];
+  
+//  function davpushot(gunsAndknifes,newGuns){
+//    gunsAndknifes.push(newGuns)
+//    return gunsAndknifes
 //  }
-//  vamatot(gunsAndknifes,'yle')
+//  const result = davpushot(gunsAndknifes,'xanjali')
+//  console.log(result)
 
 
 //7)for loop
-  // let xili = ['vashli','msxali','atami','banani']
+  //   let xili = ['vashli','msxali','atami','banani']
     
-  // for(let i = 0;i<xili.length;i++){
-  //   console.log(xili[i])
-  // }
+  //  for(let i = 0;i<xili.length;i++){
+  //    console.log(xili[i])
+  //  }
   // let i = 0
   // while(i<xili.length){
   //   console.log(xili[i])
@@ -70,26 +71,25 @@
 
 
 
-
-
 //9)for in loop
-//  const car = {
-//     model:'ferari',
-//     brand:'la ferari',
-//     color:'red',
-//     price:100000,
-//     year:2012
-// }
+ const car = {
+    model:'ferari',
+    brand:'la ferari',
+    color:'red',
+    price:100000,
+    year:2012
+}
 
 // for(const rene in car){
 //   console.log(rene)
 // }
-// for(const rene in car){
-//   console.log(car[rene])
-// }
-// for(const rene in car){
-//   console.log(`${rene}:${car[rene]}`)
-// }
+
+  // for(const rene in car){
+  //   console.log(car[rene])
+  // }
+  // for(const rene in car){
+  //   console.log(`${rene}:${car[rene]}`)
+  // }
 
 
 
@@ -106,11 +106,11 @@
 
 //  let bikes = ['kawasaki', 'supermoto', 'ninja'];
 
-//  function chavamatot(arr,startIdx,deleteCount,newItems){
-//   const newChavamatot = arr.splice(startIdx,deleteCount,newItems)
-//   return newChavamatot
+//  function davasplisot(arr,startIdx,deleteCount,newItems){
+//    const newBikes = arr.splice(startIdx,deleteCount,newItems)
+//    return newBikes
 //  }
-//  chavamatot(bikes,1,1,'veno')
+//  const result = davasplisot(bikes,1,2,'veno')
 //  console.log(bikes)
 
 
@@ -122,22 +122,26 @@
 
 //  let bikes2 = ['kawasaki', 'supermoto', 'ninja'];
 
-//  function chavamatot(arr,startIdx,deleteCount){
-//   const newChavamatot = arr.slice(startIdx,deleteCount)
-//   return newChavamatot
+//  function davaslicot(arr,startIdx,deleteCount){
+//    const newBikes = arr.slice(startIdx, startIdx + deleteCount)
+//    return newBikes
 //  }
-//  const vabshesxva = chavamatot(bikes2,0,2)
-//  console.log(vabshesxva)
+//  const result = davaslicot(bikes2,0,1)
+//  console.log(result)
+
+
 
 
 
 // 12) fillter method 
-  //  const numbers = [1,23,43,32,32,14,56,46,9,12,20]
-  
-  //  const newNumbers = numbers.filter(numbers => {
-  //   return numbers >= 55
-  //  })
-  //  console.log(newNumbers)
+//      const numbers = [1,23,43,32,32,14,56,46,9,12,20]
+     
+//    const newNumbers = numbers.filter(numbers => {
+//     return numbers <21
+//    })
+// console.log(newNumbers)
+
+
 
 // 13) reduce method 
 // const numbers = [1,2,3,4,5]
@@ -145,16 +149,15 @@
 // console.log(newNumbers)
 
 
-  //  const words = ['apple', 'banana', 'cherry', 'date'];
+  //   const words = ['apple', 'banana', 'cherry', 'date'];
   
-  // function ViyennebtReduce(arr){
-  //   const newWords = arr.reduce((previous,current)=> previous + current.length,0)
-  //   return newWords
-  // }
-  // const vabsheSxvaa = ViyennebtReduce(words)
-  // console.log(vabsheSxvaa)
-
-
+  //   function reduced(){
+  //     const newWords = words.reduce((previous,current)=> previous + current.length,0)
+  //     return newWords
+  //   }
+   
+  //  const result = reduced(words)
+  //  console.log(result)
 
 
 // 14)spread operatori
@@ -273,3 +276,16 @@
 // };
 
 // getUsers();
+
+
+
+
+// newSet
+
+// const items = ['banana', 'apple', 'orange', 'apple', 'grape', 'banana'];
+
+// function davsortot(arr){
+//   return Array.from(new Set(arr)).sort()
+// }
+// const result = davsortot(items)
+// console.log(result)
