@@ -290,10 +290,14 @@
 // const result = davsortot(items)
 // console.log(result)
 
-const items = ['banana', 'apple', 'orange', 'apple', 'grape', 'banana'];
+// const items = ['banana', 'apple', 'orange', 'apple', 'grape', 'banana'];
 
-function davsortot(arr){
-  return Array.from(new Set(arr)).sort()
-}
-const result = davsortot(items)
-console.log(result)
+// function davsortot(arr){
+//   return Array.from(new Set(arr)).sort()
+// }
+// const result = davsortot(items)
+// console.log(result)
+
+
+
+console.log('hello world')
