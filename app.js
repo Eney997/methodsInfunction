@@ -72,13 +72,13 @@
 
 
 //9)for in loop
- const car = {
-    model:'ferari',
-    brand:'la ferari',
-    color:'red',
-    price:100000,
-    year:2012
-}
+//  const car = {
+//     model:'ferari',
+//     brand:'la ferari',
+//     color:'red',
+//     price:100000,
+//     year:2012
+// }
 
 // for(const rene in car){
 //   console.log(rene)
@@ -289,3 +289,11 @@
 // }
 // const result = davsortot(items)
 // console.log(result)
+
+const items = ['banana', 'apple', 'orange', 'apple', 'grape', 'banana'];
+
+function davsortot(arr){
+  return Array.from(new Set(arr)).sort()
+}
+const result = davsortot(items)
+console.log(result)
