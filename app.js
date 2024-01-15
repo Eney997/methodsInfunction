@@ -300,4 +300,15 @@
 
 
 
-console.log('hello world')
+function generateDiv(){
+  setInterval(()=>{
+    let div = document.createElement('div')
+    div.style.width = '50px'
+    div.style.height = '50px'
+    div.style.background = 'purple'
+    div.style.border = '1px solid green'
+
+    document.body.prepend(div)
+  },3000)
+}
+generateDiv()
